@@ -1,0 +1,322 @@
+/* navbar */
+
+.navbar-light .brand-nak {
+  font-family: "Righteous", cursive;
+  font-size: 23pt;
+}
+
+.navbar-brand,
+.nav-link {
+  color: white !important;
+}
+
+.navbar {
+  background-color: #3289c2 !important;
+}
+
+.fa-align-left {
+  color: white !important;
+}
+
+.fa-shopping-cart {
+  color: white !important;
+}
+
+.fa-indent {
+  color: white !important;
+}
+
+a .btln {
+  outline: none !important;
+}
+
+.btn-nak {
+  border-radius: 50px;
+  padding: 0 20px 0 20px;
+  font-weight: bold;
+  font-size: 10pt;
+  margin-left: 10px;
+}
+
+.btn-nak-login {
+  color: white !important;
+  border-color: white !important;
+}
+
+.btn-nak-reg {
+  background-color: white !important;
+  color: black !important;
+  border-color: white !important;
+}
+
+.fa {
+  color: black;
+}
+
+.fa-trash {
+  color: white;
+}
+
+.section {
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+}
+
+.section.bottom-padding {
+  padding-bottom: 4rem;
+}
+
+.section-title {
+  font-size: 2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #555555;
+  position: relative;
+  padding-bottom: 0.5rem;
+  margin-bottom: 2rem;
+  border-bottom-width: 3px;
+  border-bottom-style: solid;
+  border-image: linear-gradient(
+      to right,
+      rgba(179, 208, 236, 0),
+      #3289c2,
+      rgba(179, 208, 236, 0)
+    )
+    1;
+}
+
+.carousel {
+  margin-top: 24px;
+  z-index: 1 !important;
+}
+
+.tdc {
+  display: flex;
+  text-decoration: black !important;
+}
+
+.produk:hover {
+  box-shadow: 0px 2px #888888;
+}
+
+.forms {
+  width: 20px !important;
+}
+
+/* footer */
+.blue {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #3289c2;
+  color: white;
+  text-align: center;
+}
+
+.text a {
+  color: white !important;
+}
+
+.ftr {
+  background-color: rgb(60, 164, 233);
+  color: white;
+}
+
+.ftr1 {
+  background-color: #3289c2;
+  color: white;
+}
+.get img {
+  height: 100px;
+  width: 250px;
+  margin-top: 20px;
+}
+
+.get1 img {
+  height: 80px;
+  width: 200px;
+  margin-top: 30px;
+}
+/* The popup form - hidden by default */
+.form-popup {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  right: 15px;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+}
+
+/* Add styles to the form container */
+.form-container {
+  max-width: 300px;
+  padding: 10px;
+  background-color: white;
+}
+
+/* Full-width input fields */
+.form-container input[type="text"],
+.form-container input[type="password"] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+/* When the inputs get focus, do something */
+.form-container input[type="text"]:focus,
+.form-container input[type="password"]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit/login button */
+.form-container .btn {
+  background-color: #4caf50;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom: 10px;
+  opacity: 0.8;
+}
+
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+  background-color: red;
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover,
+.open-button:hover {
+  opacity: 1;
+}
+
+.btnlr {
+  background-color: white !important;
+  color: black !important;
+}
+
+.nmi p {
+  margin-top: 5px;
+}
+
+.card {
+  margin-bottom: 30px;
+  color: black;
+}
+/* css for mobile */
+@media (max-width: 575.98px) {
+  .nav-item {
+    text-align: center;
+  }
+
+  .btn-nak-login {
+    height: 40px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+
+  .btn-nak-reg {
+    height: 40px;
+  }
+
+  .card {
+    margin-bottom: 10px;
+  }
+}
+
+/* back to top */
+#return-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #2d72b7;
+  width: 50px;
+  height: 50px;
+  display: block;
+  text-decoration: none;
+  -webkit-border-radius: 35px;
+  -moz-border-radius: 35px;
+  border-radius: 35px;
+  display: none;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+#return-to-top i {
+  color: #fff;
+  margin: 0;
+  position: relative;
+  left: 16px;
+  top: 13px;
+  font-size: 19px;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+#return-to-top:hover {
+  background: #2d72b7;
+}
+#return-to-top:hover i {
+  color: #fff;
+  top: 5px;
+}
+
+/* contack */
+.modal-contact-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: #313131 !important;
+  background: rgba(248, 248, 248, 0) !important;
+  padding: 1rem;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+.modal-contact-icon {
+  font-size: 1.5rem;
+  border: 1px solid rgba(44, 44, 44, 0.5) !important;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s ease;
+}
+
+.modal-contact-title {
+  font-weight: bold;
+  margin-top: 1rem;
+  margin-bottom: 0.1rem;
+}
+
+.modal-contact-body {
+  font-size: 0.8rem;
+}
+.modal-contact-box:hover,
+.modal-contact-box:focus {
+  text-decoration: none !important;
+  color: #f5f5f5 !important;
+  background: #2d72b7 !important;
+  cursor: pointer;
+}
+.modal-contact-box:hover .modal-contact-icon,
+.modal-contact-box:focus .modal-contact-icon {
+  border: 3px solid rgba(253, 253, 253, 0.5) !important;
+  color: #f5f5f5 !important;
+}
+.modal-contact-box:hover .modal-contact-icon .fa,
+.modal-contact-box:focus .modal-contact-icon .fa {
+  color: #f5f5f5 !important;
+}
